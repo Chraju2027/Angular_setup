@@ -7,6 +7,7 @@ import { VsCodeSetupComponent } from './vs-code-setup/vs-code-setup.component';
 import { HeaderComponent } from './header/header.component';
 import { NodeSetupComponent } from './node-setup/node-setup.component';
 import { AngularSetupComponent } from './angular-setup/angular-setup.component';
+import { GitSetupComponent } from './git-setup/git-setup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AngularSetupComponent } from './angular-setup/angular-setup.component';
     VsCodeSetupComponent,
     HeaderComponent,
     NodeSetupComponent,
-    AngularSetupComponent
+    AngularSetupComponent,
+    GitSetupComponent
   ],
   imports: [
     BrowserModule,
