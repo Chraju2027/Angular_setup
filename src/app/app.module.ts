@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { NodeSetupComponent } from './node-setup/node-setup.component';
 import { AngularSetupComponent } from './angular-setup/angular-setup.component';
 import { GitSetupComponent } from './git-setup/git-setup.component';
+import { AngularProjectComponent } from './angular-project/angular-project.component';
+import { GitRepoCreComponent } from './git-repo-cre/git-repo-cre.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { GitSetupComponent } from './git-setup/git-setup.component';
     HeaderComponent,
     NodeSetupComponent,
     AngularSetupComponent,
-    GitSetupComponent
+    GitSetupComponent,
+    AngularProjectComponent,
+    GitRepoCreComponent
   ],
   imports: [
     BrowserModule,
