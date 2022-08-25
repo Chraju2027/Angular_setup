@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VsCodeSetupComponent } from './vs-code-setup/vs-code-setup.component';
 import { HeaderComponent } from './header/header.component';
+import { NodeSetupComponent } from './node-setup/node-setup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VsCodeSetupComponent,
-    HeaderComponent
+    HeaderComponent,
+    NodeSetupComponent
   ],
   imports: [
     BrowserModule,
