@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { VsCodeSetupComponent } from './vs-code-setup/vs-code-setup.component';
 import { HeaderComponent } from './header/header.component';
 import { NodeSetupComponent } from './node-setup/node-setup.component';
+import { AngularSetupComponent } from './angular-setup/angular-setup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VsCodeSetupComponent,
     HeaderComponent,
-    NodeSetupComponent
+    NodeSetupComponent,
+    AngularSetupComponent
   ],
   imports: [
     BrowserModule,
